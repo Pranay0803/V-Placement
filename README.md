@@ -1,10 +1,14 @@
 # V-Placement
 
+<br>
+
 ## How to get started with Git
 
 - Install git on your system. Download link https://git-scm.com/downloads
   
 - Use git bash (command terminal for git) to follow the steps ahead
+
+<br>
 
 ## How to download repo using Git
 
@@ -21,6 +25,7 @@
 - Now using bash go into the repo folder and use
     > git remote add upstream https://github.com/Pranay0803/V-Placement
 
+<br>
 
 ## Workflow for collaborating
 
