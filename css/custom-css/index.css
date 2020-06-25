@@ -1,0 +1,61 @@
+#headnavbar
+	{
+		background-color: #f7c224;
+		width: 100%;
+	}
+	#nav2{
+		border-bottom: 1px solid #f7c224;
+		width: 100%;
+	}
+	#mustardbar li a {
+		color:#0f2c44;
+	}
+	#mustardbar li a:hover{
+		border-radius: 10px; 
+		background-color:#0f2c44;
+		color: #f7c224;
+	}
+	#main01{
+		border: solid 2px;
+		border-color: #0f2c44;
+		border-radius: 10px;  
+		color: #0f2c44;
+	}
+	#underlinebar li a {
+		color: #0f2c44;
+		font-weight:60px;
+		width: 100%;
+	}
+	#underlinebar li a:hover{
+		border-bottom: 3px solid #f7c224;
+	}
+
+	.logo_vit {
+		position: relative;
+		margin-top: 3%;
+
+	}
+	.logo_vit a {
+		cursor: pointer;
+	}
+
+	header .vit_image {
+		position: relative;
+		margin: 0;
+		background-color: #0f2c44;
+		padding: 15px;
+		margin-bottom: 2px;
+	}
+	header .vit_image img {
+		width: 100%;
+		max-width: 160px;
+	}
+	header .vit_image img.english_vit {
+		margin-top: 10px;
+		max-width: 444px;
+		margin-bottom: 10px;
+	}
+	header .vit_image img.marathi_vit {
+		width: 100%;
+		max-width: 326px;
+	}
