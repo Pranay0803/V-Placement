@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Home</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	#headnavbar
+	{
+		background-color: #f7c224;
+		width: 100%;
+	}
+	#nav2{
+		border-bottom: 1px solid #f7c224;
+		width: 100%;
+	}
+	#mustardbar li a {
+		color:#0f2c44;
+	}
+	#mustardbar li a:hover{
+		border-radius: 10px; 
+		background-color:#0f2c44;
+		color: #f7c224;
+	}
+	#main01{
+		border: solid 2px;
+		border-color: #0f2c44;
+		border-radius: 10px;  
+		color: #0f2c44;
+	}
+	#underlinebar li a {
+		color: #0f2c44;
+		font-weight:60px;
+		width: 100%;
+	}
+	#underlinebar li a:hover{
+		border-bottom: 3px solid #f7c224;
+	}
+
+	.logo_vit {
+		position: relative;
+		margin-top: 3%;
+
+	}
+	.logo_vit a {
+		cursor: pointer;
+	}
+
+	header .vit_image {
+		position: relative;
+		margin: 0;
+		background-color: #0f2c44;
+		padding: 15px;
+		margin-bottom: 2px;
+	}
+	header .vit_image img {
+		width: 100%;
+		max-width: 160px;
+	}
+	header .vit_image img.english_vit {
+		margin-top: 10px;
+		max-width: 444px;
+		margin-bottom: 10px;
+	}
+	header .vit_image img.marathi_vit {
+		width: 100%;
+		max-width: 326px;
+	}
+</style>
+<body>
+	<header>
+		<div class="vit_image">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="logo_vit">
+							<a href="index.html">
+								<img src="logo_vit.png" alt="logo" class="img-fluid">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-12 no-gutters text-right mt30 px-0">
+							<img  src="vit_image_english.png" class="img-fluid english_vit">
+							<img src="vit_image.png" class="img-fluid marathi_vit">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<nav class="navbar navbar-expand-md navbar-dark " id="headnavbar">
+			<button class="navbar-toggler" type="button" id="main01" data-toggle="collapse" data-target="#navbar01" aria-controls="navbar01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon" ></span>
+			</button>
+
+			<div class="container collapse navbar-collapse" id="navbar01" >
+				<ul class="navbar-nav mr-auto" id="mustardbar">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://vit.edu.in/plecement.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Feedback</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown04">
+							<a class="dropdown-item" data-toggle="modal" data-target="#Modal1" >1....</a>
+							<a class="dropdown-item" data-toggle="modal" data-target="#Modal2">2....</a>
+							<a class="dropdown-item" data-toggle="modal" data-target="#Modal3">3.....</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		
+		<nav class="navbar navbar-expand-sm navbar-dark" id="sndnavbar">
+			<div class="container" id="nav2">
+				<ul class="navbar-nav " id="underlinebar">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Preplacement Activities</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Placement Activities</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Modal1 -->
+		<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Login</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<form>
+						<div class="modal-body">
+							<label for="inputEmail" class="sr-only">Email address</label>
+							<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+							<label for="inputPassword" class="sr-only">Password</label>
+							<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal2 -->
+		<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Login</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<form>
+						<div class="modal-body">
+							<label for="inputEmail" class="sr-only">Email address</label>
+							<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+							<label for="inputPassword" class="sr-only">Password</label>
+							<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal3 -->
+		<div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Login</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<form>
+						<div class="modal-body">
+							<label for="inputEmail" class="sr-only">Email address</label>
+							<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+							<label for="inputPassword" class="sr-only">Password</label>
+							<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+</body>
+</html>
